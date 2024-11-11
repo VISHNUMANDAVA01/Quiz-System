@@ -18,14 +18,14 @@ import java.awt.event.ActionEvent;
 
 /**
  * 
- * @author Himanshu Maurya
+ * @author Vishnu
  *
  */
 public class MMMUT_QuizSystem {
 
 	private JFrame frmQuizSystem;
-	private String Names = "<html><ul><li>HIMANSHU MAURYA</li></ul></html>";
-	private String RollNo = "<html><ul><li>2017021053</li></ul></html>";
+	private String Names = "<html><ul><li>Vishnu,Ram,Dinesh</li></ul></html>";
+	private String RollNo = "<html><ul><li>78,86,75</li></ul></html>";
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -65,7 +65,7 @@ public class MMMUT_QuizSystem {
 		
 		lblLogo.setIcon(new ImageIcon(logo));
 		
-		JLabel lblMadanMohanMalaviya = new JLabel("Madan Mohan Malaviya University of Technology");
+		JLabel lblMadanMohanMalaviya = new JLabel("SRM University");
 		lblMadanMohanMalaviya.setForeground(Color.RED);
 		lblMadanMohanMalaviya.setBackground(Color.WHITE);
 		lblMadanMohanMalaviya.setFont(new Font("Consolas", Font.BOLD, 35));
@@ -73,7 +73,7 @@ public class MMMUT_QuizSystem {
 		lblMadanMohanMalaviya.setBounds(204, 13, 862, 88);
 		frmQuizSystem.getContentPane().add(lblMadanMohanMalaviya);
 		
-		JLabel label = new JLabel("Gorakhpur,Uttar Pradesh");
+		JLabel label = new JLabel("Chennai,TamilNadu");
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setForeground(Color.RED);
 		label.setFont(new Font("Consolas", Font.BOLD, 25));
